@@ -1,0 +1,9 @@
+# Codex configuration for the production task-evaluation pipeline.
+#
+# Project-scoped: Codex picks it up automatically when started from the
+# onboarding/ directory. Custom agents live under .codex/agents/*.toml.
+
+[agents]
+max_threads = 6
+max_depth = 1
+job_max_runtime_seconds = 1800
